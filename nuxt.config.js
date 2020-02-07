@@ -1,11 +1,11 @@
-
+/* eslint-disable */
 module.exports = {
   server: {
     // port: 3100, // default 3000
     port: process.env.PORT || 3800,
   },
-  // mode: 'universal',
-  mode: 'spa',
+  mode: 'universal',
+  // mode: 'spa',
   /*
   ** Headers of the page
   */
